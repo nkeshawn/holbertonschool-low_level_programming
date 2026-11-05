@@ -8,14 +8,31 @@
 
 int main(void)
 {
-int a;
-a = 48;
+/*
+ * method 1: convert 0 to ascii decimal manually
+ *
+ * int a;
+ * a = 48;
+ *
+ * while (a < 58)
+ * {
+ *	putchar(a);
+ *	a++;
+ *	}
+ */
 
-while (a < 58)
+/*
+ * method 2: add '0' (numberic value 48) to the integer.
+ */
+int a;
+a = 0;
+
+while (a < 10)
 {
-	putchar(a);
+	putchar(a + '0');
 	a++;
 }
+
 putchar('\n');
 
 return (0);
