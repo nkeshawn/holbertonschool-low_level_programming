@@ -6,3 +6,4 @@
 5. 5-print_numbers.c: prints all single digit numbers of base 10 starting from 0.
 6. 6-print_numberz.c: same as 5, but without using printf. Char '0' is 48 in ASCII decimal value!
 7. 7-print_tebahpla.c: prints the alphabet in lowercase, in reverse order.
+8. 8-print_base16.c: prints all the numbers of base 16 in lowercase, but without using printf.
