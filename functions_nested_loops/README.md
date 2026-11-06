@@ -8,3 +8,4 @@
 7. 7-print_last_digit: prints the last digit of a number.
 8. 8-24_hours: prints every minute of the day, starting from 00:00 to 23:59.
 9. 9-times_tables: prints the 9 times table.
+10. 10-add.c: adding two integers.
