@@ -24,7 +24,8 @@ void print_triangle(int size)
 				_putchar(' ');
 			for (hash = 0; hash < row; hash++)
 				_putchar('#');
-		_putchar('\n');
+			if (row < size)
+			_putchar('\n');
 		}
 	}
 }
