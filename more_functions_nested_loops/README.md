@@ -7,3 +7,4 @@
 6. 6-print_line: draws a straight line.
 7. 7-print_diagonal: draws a diagonal line.
 8. 8-print_square: draws a square.
+9. 9-fizzbuzz: prints the numbers, from 1 to 100. 
