@@ -6,3 +6,4 @@
 5. 5-more_numbers: print the numbers, from 0 to 14, ten times.
 6. 6-print_line: draws a straight line.
 7. 7-print_diagonal: draws a diagonal line.
+8. 8-print_square: draws a square.
