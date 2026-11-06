@@ -6,3 +6,4 @@
 5. 5-sign: prints the sign of a number.
 6. 6-abs: prints absolute value of an integer.
 7. 7-print_last_digit: prints the last digit of a number.
+8. 8-24_hours: prints every minute of the day, starting from 00:00 to 23:59
