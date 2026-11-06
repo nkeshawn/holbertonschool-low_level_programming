@@ -3,3 +3,4 @@
 2. 2-print_alphabet_x10: prints the alphabet, in lowercase, 10 times, followed by a new line.
 3. 3-islower: checks if character is lowercase.
 4. 4-isalpha: checks if character is a letter, either lowercase or uppercase. 
+5. 5-sign: prints the sign of a number.
