@@ -5,3 +5,4 @@
 4. 4-isalpha: checks if character is a letter, either lowercase or uppercase. 
 5. 5-sign: prints the sign of a number.
 6. 6-abs: prints absolute value of an integer.
+7. 7-print_last_digit: prints the last digit of a number.
