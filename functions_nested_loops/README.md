@@ -9,3 +9,4 @@
 8. 8-24_hours: prints every minute of the day, starting from 00:00 to 23:59.
 9. 9-times_tables: prints the 9 times table.
 10. 10-add.c: adding two integers.
+11. 11-print_to_98: prints the inputted integer to 98.
