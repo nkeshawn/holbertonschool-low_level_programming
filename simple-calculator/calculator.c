@@ -33,13 +33,26 @@ int main(void)
 	if (choice == 0)
 		printf("Bye!\n");
 
-	if (choice == 1)
+	if (valid)
 	{
 		printf("A: ");
 		scanf("%d", &a);
 		printf("B: ");
 		scanf("%d", &b);
-		printf("Result: %d\n", (a + b));
+		switch (choice){
+			case 1:
+				printf("Result: %d\n", (a + b));
+				break;
+			case 2:
+				printf("Result: %d\n", (a - b));
+				break;
+			case 3:
+                                printf("Result: %d\n", (a * b));
+				break;
+                        case 4:
+                                printf("Result: %d\n", (a / b));
+				break;
+		}
 	}
 
 	return (0);
