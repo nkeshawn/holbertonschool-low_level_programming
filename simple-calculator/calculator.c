@@ -10,6 +10,8 @@ int main(void)
 {
 	int choice;
 	int valid;
+	int a;
+	int b;
 
 	do {
 		printf("Simple Calculator\n");
@@ -30,6 +32,15 @@ int main(void)
 
 	if (choice == 0)
 		printf("Bye!\n");
+
+	if (choice == 1)
+	{
+		printf("A: ");
+		scanf("%d", &a);
+		printf("B: ");
+		scanf("%d", &b);
+		printf("Result: %d\n", (a + b));
+	}
 
 	return (0);
 }
