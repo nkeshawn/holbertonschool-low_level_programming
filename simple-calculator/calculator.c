@@ -50,7 +50,10 @@ int main(void)
                                 printf("Result: %d\n", (a * b));
 				break;
                         case 4:
-                                printf("Result: %d\n", (a / b));
+                                if (b == 0)
+					printf("Error: division \033[1mby\033[0m zero\n");
+				else
+				printf("Result: %f\n", ((float)a / (float)b));
 				break;
 		}
 	}
