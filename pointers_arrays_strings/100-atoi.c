@@ -28,10 +28,10 @@ int _atoi(char *s)
 	{
 		if (sign == -1)
 			store = store * 10 - (s[a] - '0');
-		else 
+		else
 			store = store * 10 + (s[a] - '0');
 		a++;
 	}
-	
+
 	return (store);
 }
