@@ -9,3 +9,5 @@
 8. 8-print_array: prints n elements of an array of integers, followed by a new line.
 9. 9-strcpy: copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by desti.
 10. 100-atoi: convert a string to an integer.
+
+0. 0-strcat: concatenates two strings.
