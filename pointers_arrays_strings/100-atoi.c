@@ -26,8 +26,12 @@ int _atoi(char *s)
 
 	while (s[a] >= '0' && s[a] <= '9')
 	{
-		store = store * 10 + (s[a] - '0');
+		if (sign == -1)
+			store = store * 10 - (s[a] - '0');
+		else 
+			store = store * 10 + (s[a] - '0');
 		a++;
 	}
-	return (store * sign);
+	
+	return (store);
 }
