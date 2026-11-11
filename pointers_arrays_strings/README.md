@@ -12,3 +12,4 @@
 
 0. 0-strcat: concatenates two strings.
 1. 1-strncat: concatenates two strings, for a given number of characters.
+2. 2-strncpy: copies a string.
