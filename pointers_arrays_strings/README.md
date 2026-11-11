@@ -15,3 +15,4 @@
 2. 2-strncpy: copies a string.
 3. 3-strcmp: compare two strings.
 4. 4-rev_array: reverses the content of an array of integers.
+5. 5-string_toupper: changes all lowercase letters of a string to uppercase.
