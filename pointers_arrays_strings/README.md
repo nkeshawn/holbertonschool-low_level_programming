@@ -11,3 +11,4 @@
 10. 100-atoi: convert a string to an integer.
 
 0. 0-strcat: concatenates two strings.
+1. 1-strncat: concatenates two strings, for a given number of characters.
