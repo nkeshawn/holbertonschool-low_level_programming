@@ -41,3 +41,14 @@ Not only is the naive algorithm 26,318 times slower than the single-pass algorit
 
 This task also demonstrates that input size affects execution time, even for algorithms with linear time complexity, O(n). Execution took 0.0001 seconds for 50,000 iterations compared to 0.25 seconds for 100,000,000 iterations in task 0. 
 
+Task 2 simulates a computational task with multiple phases.
+
+| RUN                |     1     |     2     |     3     |  AVERAGE  | 
+| TOTAL seconds      | 0.000734  | 0.000770  | 0.000757  | 0.000754  |
+| BUILD_DATA seconds | 0.000292  | 0.000297  | 0.000301  | 0.000297  |
+| PROCESS seconds    | 0.000307  | 0.000336  | 0.000321  | 0.000321  |
+| REDUCE seconds     | 0.000135  | 0.000137  | 0.000135  | 0.000136  |
+
+In this multi-phase program, all three functions use only one for loop each. Therefore, the algorithms to build the dataset, process the dataset and reduce the checksum all have linear time complexity, O(n). However, the time needed to execute each function is different. Building the dataset  takes 39.4% of the total execution time, processing the dataset takes 42.6%, while reducing thechecksum takes 18%.
+
+The processing function has to read the dataset, perform multiple arithmetic operations, check against the specified condition, and store the updated value in the dataset. In contrast, the checksum function only performs a few arithmetic operations. Through this, we can see that more complex operations can increase execution time.
