@@ -52,3 +52,12 @@ Task 2 simulates a computational task with multiple phases.
 In this multi-phase program, all three functions use only one for loop each. Therefore, the algorithms to build the dataset, process the dataset and reduce the checksum all have linear time complexity, O(n). However, the time needed to execute each function is different. Building the dataset  takes 39.4% of the total execution time, processing the dataset takes 42.6%, while reducing thechecksum takes 18%.
 
 The processing function has to read the dataset, perform multiple arithmetic operations, check against the specified condition, and store the updated value in the dataset. In contrast, the checksum function only performs a few arithmetic operations. Through this, we can see that more complex operations can increase execution time.
+
+Relation Between Runtime and Energy Consumption
+Runtime does not directly measure energy usage, but longer execution time generally implies longer CPU activity. Therefore, runtime is an indirect indicator of energy consumption.
+
+Limitations of the Experiment
+Background processes compete for hardware resources, affecting the execution runtime. Using a dedicated environment would provide more consistent and reliable measurements.
+
+Practical Engineering Takeaway
+To reduce our codes' carbon footprint, it is important to use efficient algorithms, appropriate dataset sizes and identify which part of the process needs improvement. 
