@@ -1,4 +1,4 @@
-##Measurement Methodology
+## Measurement Methodology
 Processor time is measured using clock() function from the <time.h> library. This function returns an approximation of processor time used by the program.
 
 The measurement process follows 4 steps:
@@ -15,7 +15,7 @@ This formula converts the number of clock ticks into seconds, representing the p
 
 Each algorithm is run 3 times, and the execution times are averaged for a more reliable representation of its performance.
 
-##Observed Performance Differences
+## Observed Performance Differences
 Task 0 establishes a baseline for understanding the processing time of a simple computation task.
 
 |  Iterations	|   Execution time  |
@@ -53,11 +53,11 @@ In this multi-phase program, all three functions use only one for loop each. The
 
 The processing function has to read the dataset, perform multiple arithmetic operations, check against the specified condition, and store the updated value in the dataset. In contrast, the checksum function only performs a few arithmetic operations. Through this, we can see that more complex operations can increase execution time.
 
-##Relation Between Runtime and Energy Consumption
+## Relation Between Runtime and Energy Consumption
 Runtime does not directly measure energy usage, but longer execution time generally implies longer CPU activity. Therefore, runtime is an indirect indicator of energy consumption.
 
-##Limitations of the Experiment
+## Limitations of the Experiment
 Background processes compete for hardware resources, affecting the execution runtime. Using a dedicated environment would provide more consistent and reliable measurements.
 
-##Practical Engineering Takeaway
+## Practical Engineering Takeaway
 To reduce our codes' carbon footprint, it is important to use efficient algorithms, appropriate dataset sizes and identify which part of the process needs improvement. 
