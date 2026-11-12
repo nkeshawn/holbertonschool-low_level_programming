@@ -6,10 +6,7 @@ The measurement process follows 4 steps:
 2. Run the algorithm.
 3. Record the final processor clock value using End = clock().
 4. Compute the execution time using the formula:
-	
-	(End - Start) / CLOCKS_PER_SEC
-
-where CLOCKS_PER_SEC is the number of ticks per second. 
+	(End - Start) / CLOCKS_PER_SEC, where CLOCKS_PER_SEC is the number of ticks per second. 
 
 This formula converts the number of clock ticks into seconds, representing the processor time needed to execute the algorithm.
 
