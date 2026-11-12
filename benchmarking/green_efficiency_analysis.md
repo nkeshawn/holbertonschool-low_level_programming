@@ -19,11 +19,9 @@ Observed Performance Differences
 Task 0 establishes a baseline for understanding the processing time of a simple computation task.
 
 |  Iterations	|   Execution time  |
-------------------------------------
 |  100000000 	|  0.241917 seconds |
 |  100000000 	|  0.269180 seconds | 
 |  100000000 	|  0.241334 seconds |
-------------------------------------
 |   AVERAGE     |  0.250810 seconds |
 
 With an iteration count of 100,000,000, the for loop executes 100,000,000 times, making it a linear time (O(n))complexity. Even though we are executing the same algorithm, the timing changes between runs. Due to the timing variability, it is important to take the average of multiple executions, which is 0.25 seconds in this case.
@@ -32,7 +30,6 @@ Task 1 aims to find the number of even number in an array of 50000 integers.
 
 |       Naive algorithm	         |       Single-pass algorithm    |
 |  Result   |   Execution time	 |  Result  |    Execution time   |
--------------------------------------------------------------------
 | 625025000 |  2.815260 seconds  |   25000  |   0.000106 seconds  |
 | 625025000 |  2.803020 seconds  |   25000  |   0.000107 seconds  | 
 | 625025000 |  2.774895 seconds  |   25000  |   0.000106 seconds  |
