@@ -2,10 +2,10 @@
 Processor time is measured using clock() function from the <time.h> library. This function returns an approximation of processor time used by the program.
 
 The measurement process follows 4 steps:
-First, record the initial processor clock value using Start = clock().
-Second, run the algorithm.
-Third, record the final processor clock value using End = clock().
-Lastly, compute the execution time using the formula:
+1. Record the initial processor clock value using Start = clock().
+2. Run the algorithm.
+3. Record the final processor clock value using End = clock().
+4. Compute the execution time using the formula:
 	
 	(End - Start) / CLOCKS_PER_SEC
 
@@ -13,7 +13,7 @@ where CLOCKS_PER_SEC is the number of ticks per second.
 
 This formula converts the number of clock ticks into seconds, representing the processor time needed to execute the algorithm.
 
-Each algorithm is run 3 times, and the execution times are averaged for a more reliable representation of its performance.
+Each algorithm runs 3 times, and the execution times are averaged for a more reliable representation of its performance.
 
 ## Observed Performance Differences
 Task 0 establishes a baseline for understanding the processing time of a simple computation task.
