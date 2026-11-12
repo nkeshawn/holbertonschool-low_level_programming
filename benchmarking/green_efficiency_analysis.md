@@ -18,6 +18,13 @@ Each algorithm is run 3 times, and the execution times are averaged for a more r
 ## Observed Performance Differences
 Task 0 establishes a baseline for understanding the processing time of a simple computation task.
 
+| Iterations | Execution time |
+|------------|----------------|
+| 100000000  | 0.241917 seconds |
+| 100000000  | 0.269180 seconds |
+| 100000000  | 0.241334 seconds |
+| **AVERAGE** | **0.250810 seconds** |
+
 |  Iterations	|   Execution time  |
 |  100000000 	|  0.241917 seconds |
 |  100000000 	|  0.269180 seconds | 
