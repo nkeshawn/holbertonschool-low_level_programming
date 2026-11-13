@@ -10,20 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int counter;
-	unsigned int length;
+	while (*s != '\0')
+	{
+		if (*s == c)
+			return (s);
+	s++;
+	}
 
-	counter = 0;
-	length = 0;
-
-	while (s[length] != '\0')
-		length++;
-
-	while (s[counter] != '\0' && s[counter] != c)
-		counter++;
-
-	if (counter == length)
-		return (NULL);
-	else
-		return (&s[counter]);
+	return ('\0');
 }
