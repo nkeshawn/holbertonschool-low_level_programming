@@ -17,3 +17,12 @@
 4. 4-rev_array: reverses the content of an array of integers.
 5. 5-string_toupper: changes all lowercase letters of a string to uppercase.
 6. 6-cap_string: capitalizes first letter of each word in a string.
+
+0. 0-memset: fills memory with a constant byte.
+1. 1-memcpy: copies memory area.
+2. 2-strchr: locates a character in a string.
+3. 3-strspn: gets the length of a prefix substring.
+4. 4-strpbrk: searches a string for any of a set of bytes.
+5. 5-strstr: locates a substring.
+6. 7-print_chessboard: prints the chessboard.
+7. 8-print_diagsums: prints the sum of the two diagonals of a square matrix of integers.
