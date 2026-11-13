@@ -10,8 +10,8 @@
 
 char *_strchr(char *s, char c)
 {
-	int counter;
-	int length;
+	unsigned int counter;
+	unsigned int length;
 
 	counter = 0;
 	length = 0;
