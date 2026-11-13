@@ -23,7 +23,7 @@ char *_strchr(char *s, char c)
 		counter++;
 
 	if (counter == length)
-		return ('\0');
+		return (NULL);
 	else
 		return (&s[counter]);
 }
