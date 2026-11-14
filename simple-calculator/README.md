@@ -5,10 +5,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 Run using ./calculator
 
 ## Supported Operations
-+ Addition
-- Subtraction
-* Multiplication
-/ Division
+1. + Addition
+2. - Subtraction
+3. * Multiplication
+4. / Division
 
 ## Numeric Behavior
 Addition, Subtraction and Multiplication only for integers.
