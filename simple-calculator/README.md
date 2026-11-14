@@ -1,11 +1,20 @@
-compile command (exact flags)
+## Compile Command
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 
-run instructions
+## Run Instructions
+Run using ./calculator
 
-supported operations
+## Supported Operations
++ Addition
+- Subtraction
+* Multiplication
+/ Division
 
-numeric behavior (integer vs decimal)
+## Numeric Behavior
+Addition, Subtraction and Multiplication only for integers.
+Division displays 6 digits after decimal.
 
-known limitations (if any)
-
+## Known Limitations
+1. Only supports arithmetic operations using two values.
+2. The calculator must be restarted after each operation.
 
