@@ -35,7 +35,6 @@ char *str_concat(char *s1, char *s2)
 {
 	unsigned int size;
 	unsigned int i;
-	unsigned int j;
 	char *array;
 
 	size = 0;
