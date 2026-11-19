@@ -36,8 +36,10 @@ int **alloc_grid(int width, int height)
 		{
 			while (i > 0)
 			{
-				/* free previously allocated rows
-				 * current integer failed, so free previous ones */
+				/**
+				 * free previously allocated rows
+				 * current integer failed, so free previous ones
+				 */
 				free(array[--i]);
 			}
 		/*free array of pointers*/
