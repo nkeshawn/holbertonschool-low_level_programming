@@ -52,15 +52,12 @@ char *str_concat(char *s1, char *s2)
 	if (array == NULL)
 		return (NULL);
 
-	for (i = 0; s1[i] != '\0'; i++)
-		array[i] = s1[i];
-
-	for (j = 0; s2[i] != '\0'; j++)
+	for (i = 0; i <= size; i++)
+	{
+		if (i < _strlen(s1))
 			array[i] = s1[i];
-			i++;
-		}
-		array[i] = s2[i];
+		else
+			array[i] = s2[i - _strlen(s1)];
 	}
-
 	return (array);
 }
