@@ -8,7 +8,7 @@
  * Return: length of the string.
  */
 
-int _strlen(char *name)
+unsigned int _strlen(char *name)
 {
 	unsigned int i;
 	unsigned int length;
