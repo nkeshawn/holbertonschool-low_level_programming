@@ -3,3 +3,4 @@
 2. 2-print_dog: prints a struct dog.
 3. dog.h: define new type dog_t as new name for type struct dog.
 4. 4-new_dog: create a new dog.
+5. 5-free_dog: frees dogs.
