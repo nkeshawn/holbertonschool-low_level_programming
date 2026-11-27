@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 	separator = "";
 	va_start(list, format);
 
-	while (format[counter] != '\0')
+	while (format && format[counter] != '\0')
 	{
 		switch (format[counter])
 		{
